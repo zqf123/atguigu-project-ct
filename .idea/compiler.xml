@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ct-analysis" />
+        <module name="ct-web" />
+        <module name="ct-producer" />
+        <module name="ct-common" />
+        <module name="ct-consumer-coprocessor" />
+        <module name="ct-consumer" />
+        <module name="ct-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ct-web" target="1.7" />
+      <module name="ct-web2" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
